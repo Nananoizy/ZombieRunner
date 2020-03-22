@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  chaseRange: 7
+  chaseRange: 10
 --- !u!95 &6423486665935178911
 Animator:
   serializedVersion: 3

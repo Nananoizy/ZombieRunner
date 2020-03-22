@@ -180,6 +180,7 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 13600000}
   - component: {fileID: 11400004}
+  - component: {fileID: 3093518730955178564}
   m_Layer: 0
   m_Name: RigidBodyFPSController
   m_TagString: Untagged
@@ -301,6 +302,19 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &3093518730955178564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904360df4fc776240b88cc860a25b87a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 2000000}
 --- !u!114 &1425384183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,6 +331,7 @@ MonoBehaviour:
   range: 100
   damage: 30
   flash: {fileID: 13950236896954116, guid: 399298bbbabcdc542bf1d1b263e962a4, type: 3}
+  hitEffect: {fileID: 0}
 --- !u!1 &9169383271524160532
 GameObject:
   m_ObjectHideFlags: 0
