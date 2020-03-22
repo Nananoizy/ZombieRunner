@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  chaseRange: 5
+  chaseRange: 7
 --- !u!95 &6423486665935178911
 Animator:
   serializedVersion: 3
@@ -260,8 +260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd242533d251754a8a7a21010fb6e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  damage: 40
+  damage: 30
 --- !u!114 &745931460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,4 +273,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fd29e9429ce30b4da601fd481605928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 100
+  hitPoints: 150
