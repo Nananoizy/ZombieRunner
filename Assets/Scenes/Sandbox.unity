@@ -1475,12 +1475,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 66a13889798137c498eae4b3acdafe19, type: 3}
---- !u!198 &483167563 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 2681913693412232437, guid: c6453f8e1f814744d8b94e5a6d1f9942,
-    type: 3}
-  m_PrefabInstance: {fileID: 1979105898}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &530964328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c09052c9b19f0ea4987bc4f4f981252f,
@@ -4696,38 +4690,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f6af4c5cc6cc5e48b3509d7e8b589dd, type: 3}
---- !u!1 &1557006979 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
-    type: 3}
-  m_PrefabInstance: {fileID: 1979105898}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1557006983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557006979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c896d79bb88c40a44838d364f11b70c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 100
---- !u!114 &1557006984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557006979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30fe21384b27d3b48a607c1f1d18eff3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GOCanvas: {fileID: 1631549291}
 --- !u!1 &1559511049 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 66a13889798137c498eae4b3acdafe19,
@@ -6074,7 +6036,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66a13889798137c498eae4b3acdafe19, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.37894127
+      value: 0.29579017
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66a13889798137c498eae4b3acdafe19, type: 3}
       propertyPath: m_LocalScale.z
@@ -6482,16 +6444,27 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1425384183, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: flash
+      propertyPath: ammoSlot
       value: 
-      objectReference: {fileID: 483167563}
-    - target: {fileID: 1425384183, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: hitEffect
+      objectReference: {fileID: 1979105899}
+    - target: {fileID: 1557006984, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: GOCanvas
       value: 
-      objectReference: {fileID: 8279127885784042672, guid: 865c5f78824543b4b8ced27130e7fafc,
-        type: 3}
+      objectReference: {fileID: 1631549291}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+--- !u!114 &1979105899 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6128103353620625331, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+    type: 3}
+  m_PrefabInstance: {fileID: 1979105898}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc6d8a3fae8cbeb4495e8682a97d5568, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1991044468 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 66a13889798137c498eae4b3acdafe19,
