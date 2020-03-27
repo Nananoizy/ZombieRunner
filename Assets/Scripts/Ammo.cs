@@ -21,4 +21,9 @@ public class Ammo : MonoBehaviour
     {
         ammoAmount--;
     }
+
+    public void pickUpAmmo()
+    {
+        ammoAmount += 10;
+    }
 }
