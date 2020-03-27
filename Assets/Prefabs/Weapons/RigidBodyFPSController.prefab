@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 1557006984}
   m_Layer: 0
   m_Name: RigidBodyFPSController
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
   flash: {fileID: 2681913693412232437}
   hitEffect: {fileID: 8279127885784042672, guid: 865c5f78824543b4b8ced27130e7fafc,
     type: 3}
-  ammoSlot: {fileID: 0}
+  ammoSlot: {fileID: 6128103353620625331}
 --- !u!1 &9169383271524160532
 GameObject:
   m_ObjectHideFlags: 0
