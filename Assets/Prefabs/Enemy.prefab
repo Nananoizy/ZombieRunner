@@ -125,7 +125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80903ab3e0a54ed4d947ff220e84b94b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   chaseRange: 10
 --- !u!95 &6423486665935178911
 Animator:
@@ -158,7 +157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd242533d251754a8a7a21010fb6e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
+  damage: 10
 --- !u!114 &745931460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fd29e9429ce30b4da601fd481605928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 150
+  hitPoints: 100
 --- !u!1001 &653263935044221281
 PrefabInstance:
   m_ObjectHideFlags: 0
