@@ -52,6 +52,7 @@ public class enemyAI : MonoBehaviour
 
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
+            GetComponent<AudioSource>().Stop();
             ChaseTarget();
         }
         

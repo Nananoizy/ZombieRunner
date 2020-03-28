@@ -11,6 +11,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem flash;
     [SerializeField] GameObject hitEffect;
     [SerializeField] Ammo ammoSlot;
+    [SerializeField] AudioClip disparo;
 
     void Update()
     {
@@ -26,6 +27,8 @@ public class Weapon : MonoBehaviour
 
     private void Shoot()
     {
+        GetComponent<AudioSource>().Stop();
+        GetComponent<AudioSource>().PlayOneShot(disparo);
         PlayFlash();
         ProcessRaycast();
         ammoSlot.ReduceCurrentAmmo();

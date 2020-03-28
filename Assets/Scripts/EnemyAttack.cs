@@ -7,6 +7,8 @@ public class EnemyAttack : MonoBehaviour
     PlayerHealth target;
     [SerializeField] float damage= 40f;
 
+    [SerializeField] AudioClip ataque;
+
     void Start()
     {
         target = FindObjectOfType<PlayerHealth>();
@@ -17,6 +19,8 @@ public class EnemyAttack : MonoBehaviour
         if (target == null) { return; }
 
         target.TakeDamage(damage);
+
+        GetComponent<AudioSource>().PlayOneShot(ataque);
 
     }
 
